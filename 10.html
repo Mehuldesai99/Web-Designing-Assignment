@@ -1,0 +1,46 @@
+<!-- 10. How can we club two or more rows or columns into a single row or column in an HTML table?
+
+- In HTML tables, you can use the rowspan and colspan attributes to merge cells and combine two or more rows or columns into a single row or column, respectively.
+
+1. Rowspan:
+
+- The rowspan attribute is used to specify how many rows a cell should span vertically.
+
+- It is applied to the cell that you want to extend across multiple rows.
+
+Example:
+<table border="1">
+    <tr>
+      <td rowspan="2">Cell 1</td>
+      <td>Cell 2</td>
+      <td>Cell 3</td>
+    </tr>
+    <tr>
+      <td>Cell 4</td>
+      <td>Cell 5</td>
+    </tr>
+  </table>
+- In this example, the first cell (<td>Cell 1</td>) spans two rows.
+
+2. Colspan:
+  
+- The colspan attribute is used to specify how many columns a cell should span horizontally.
+  
+- It is applied to the cell that you want to extend across multiple columns.
+  
+Example: 
+<table border="1">
+    <tr>
+      <td>Cell 1</td>
+      <td colspan="2">Cell 2 and Cell 3</td>
+    </tr>
+    <tr>
+      <td>Cell 4</td>
+      <td>Cell 5</td>
+      <td>Cell 6</td>
+    </tr>
+  </table>
+
+- In this example, the second cell (<td colspan="2">Cell 2 and Cell 3</td>) spans two columns.
+
+- Using rowspan and colspan allows you to create more complex table structures by merging cells. It's important to ensure that the total number of cells in each row remains consistent, accounting for the spanned cells. -->

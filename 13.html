@@ -1,0 +1,38 @@
+<!-- 13. What is the use of an iframe tag? -->
+
+
+- The <iframe> (inline frame) tag in HTML is used to embed an external document or web page within the current HTML document. It allows you to display content from another source, such as a different website, a video, a map, or any other web page, directly within your own page.
+
+- Here is the basic syntax of the <iframe> tag:
+
+    <iframe src="URL" width="width" height="height" frameborder="0"></iframe>
+
+- src: Specifies the URL of the external content you want to embed.
+- width: Specifies the width of the iframe.
+- height: Specifies the height of the iframe.
+-  frameborder: Specifies whether to display a border around the iframe (set to "0" for no border).
+- Example:
+<!DOCTYPE html>
+<html>
+<head>
+    <title>IFrame Example</title>
+</head>
+<body>
+
+<h1>Embedding a YouTube video using iframe:</h1>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+
+</body>
+</html>
+
+- In this example, the <iframe> is used to embed a YouTube video. You replace "VIDEO_ID" in the src attribute with the actual ID of the YouTube video you want to embed.
+
+- Some common uses of <iframe> include:
+    
+1. Embedding videos from platforms like YouTube or Vimeo.
+2. Integrating maps from services like Google Maps.
+3. Displaying content from external websites.
+4. Including advertisements or external widgets.
+    
+- It's important to note that the use of iframes should be done carefully, especially when embedding content from external sources, to ensure security and prevent potential vulnerabilities.
